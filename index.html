@@ -5,29 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Login page</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--Form-->
+    <!--Parte de login-->
     <div class="container">
         <div class="form-box login">
             <form action="#">
+
                 <div class="input-box">
-                    <input type="text" name="Username" placeholder="Usuário" required>
+                    <input type="text" placeholder="Usuário" required>
                     <i class="bx bxs-user"></i>
                 </div>
+
                 <div class="input-box">
-                    <input type="password" name="Username" placeholder="Senha" required>
+                    <input type="password" placeholder="Senha" required>
                     <i class="bx bxs-lock-alt"></i>
                 </div>
+
                 <div class="forgot-link">
                     <a href="#">Esqueceu a senha?</a>
                 </div>
+
                 <button type="submit" class="btn">Login</button>
-                <p>Ou faça login com suas redes sociais.</p>
+
+                <p>Ou faça login com suas redes sociais</p>
+
                 <div class="social-icons">
                     <a href="#"><i class="bx bxl-google"></i></a>
 
@@ -36,27 +42,35 @@
                     <a href="#"><i class="bx bxl-github"></i></a>
 
                     <a href="#"><i class="bx bxl-linkedin"></i></a>
+
                 </div>
             </form>
         </div>
 
-        <!--Registro-->
+
+        <!--Parte do registro-->
         <div class="form-box register">
             <form action="#">
+
                 <div class="input-box">
-                    <input type="text" name="Username" placeholder="Usuário" required>
+                    <input type="text" placeholder="Usuário" required>
                     <i class="bx bxs-user"></i>
                 </div>
+
                 <div class="input-box">
-                    <input type="email" name="Email" placeholder="E-mail" required>
+                    <input type="email" placeholder="E-mail" required>
                     <i class="bx bxs-envelope"></i>
                 </div>
+
                 <div class="input-box">
-                    <input type="password" name="Username" placeholder="Senha" required>
+                    <input type="password" placeholder="Senha" required>
                     <i class="bx bxs-lock-alt"></i>
                 </div>
+
                 <button type="submit" class="btn">Registro</button>
-                <p>Ou faça registro com suas redes sociais.</p>
+
+                <p>Ou faça registro com suas redes sociais</p>
+
                 <div class="social-icons">
                     <a href="#"><i class="bx bxl-google"></i></a>
 
@@ -65,23 +79,29 @@
                     <a href="#"><i class="bx bxl-github"></i></a>
 
                     <a href="#"><i class="bx bxl-linkedin"></i></a>
+
                 </div>
             </form>
-            <!--Parte Painel-->
-            <div class="toggle-box">
-                <div class="toggle-panel toggle-left">
-                    <h1>Olá, Bem-Vindo!</h1>
-                    <p>Não tem uma conta?</p>
-                    <button class="btn register-btn">Faça Registro</button>
-                </div>
-                <div class="toggle-panel toggle-right">
-                    <h1>Olá, Bem-Vindo de volta!</h1>
-                    <p>Já tem uma conta?</p>
-                    <button class="btn login-btn">Faça Login</button>
-                </div>
+        </div>
+
+        <!--Parte Painel-->
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Olá, Bem-Vindo!</h1>
+                <p>Não tem uma conta?</p>
+                <button class="btn register-btn">Faça Registro</button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <h1>Olá, Bem-Vindo de volta!</h1>
+                <p>Já tem uma conta?</p>
+                <button class="btn register-btn">Faça Login</button>
             </div>
         </div>
     </div>
+
+<script src="script.js"></script>
+
 </body>
 
 </html>
